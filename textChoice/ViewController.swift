@@ -15,6 +15,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBOutlet weak var resultLabel: UILabel!
+    @IBOutlet weak var textField: UITextField!
+
+    @IBAction func choiceBtn(sender: AnyObject) {
+        if textField.text == "aaa" {
+            resultLabel.text = "◯"
+        }else{
+            resultLabel.text = "☓"
+
+        }
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
