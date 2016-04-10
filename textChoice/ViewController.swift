@@ -25,6 +25,7 @@ class ViewController: UIViewController {
             resultLabel.text = "☓"
 
         }
+        textField.text=""
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
